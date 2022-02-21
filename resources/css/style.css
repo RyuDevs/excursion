@@ -1,18 +1,27 @@
 body{
     font-family: Verdana, sans-serif;
     background-color: black;
+    color: white
 }
 
 h1{
-    color: white;
     font-size: 50px;
     font-weight: normal;
-    text-align: center;
 }
 
 a{
     color: aquamarine;
     font-size: 16px;
+    padding: 15px 0;
+}
+
+.block {
+    display: block;
+}
+
+section{
+    text-align: center;
+    margin-bottom: 50px;
 }
 
 h2{
@@ -23,10 +32,6 @@ h2{
 p{
     font-size: 21px;
     color: gray;
-}
-
-img{
-    display: block;
 }
 
 footer p{
